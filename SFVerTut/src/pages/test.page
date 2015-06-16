@@ -1,0 +1,20 @@
+<!-- A new page can be created by mdifying the URL after .com to ~.com/apex/test to create a testpage file. But for that development mode should be enabled. -->
+  <!-- enabling development mode from : My Settings > Personal > Advanced user settings and tick development mode. -->
+  <apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+
+  <h1>Congratulations</h1>
+  This is your new Page: test
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
+
+<!--
+More information:
+You can also manage or create new pages from Setup > Develop > Pages.
+After trying to crete or edit pages you will see there are some more options other than simply name and source code
+1. Description: Preferred for good documentation.
+2. Available for salesforce mobile APPS. Tick this if you want your salesforce page to be accessible on mobile. POINT TO NOTE!!
+3. CSRF protection on GET request. This is required only for pages which delete data from data base on load. Only on load. Even if there is a delete button this option need not be ticked.
+But only for such pages where delete from database is performed during the page load, this option should be ticked during page creation.
+
+-->
